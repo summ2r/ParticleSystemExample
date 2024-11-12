@@ -24,4 +24,8 @@ class Particle {
         fill(127, this.lifespan);
         ellipse(this.position.x, this.position.y, 12, 12);  
     }
+
+    isDead() {
+        return this.lifespan < 0;
+    }
 }

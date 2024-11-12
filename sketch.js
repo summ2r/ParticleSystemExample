@@ -17,8 +17,8 @@ function draw() {
   for (s of systems) {
     s.addParticle();
     s.applyGravity(g);
-    system.applyForce(wind);
-    system.run();
+    s.applyForce(wind);
+    s.run();
   }
 }
 

@@ -6,11 +6,6 @@ let Particle = function (position) {
     this.lifespan = 255;
   };
   
-  Particle.prototype.run = function () {
-    this.update();
-    this.display();
-  };
-  
   // 위치 업데이트를 위한 메소드
   Particle.prototype.update = function () {
     this.velocity.add(this.acceleration);

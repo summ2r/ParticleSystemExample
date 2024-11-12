@@ -13,5 +13,6 @@ function draw() {
   background(51);
   system.addParticle();
   system.applyGravity(g);
+  system.applyForce(wind);
   system.run();
 }

@@ -7,7 +7,7 @@ let wind;
 function setup() {
   createCanvas(720, 400);
   // system = new ParticleSystem(createVector(width / 2, 50));
-  g = createVector(0, -0.05);
+  g = createVector(0, -0.5);
   wind = createVector(0, 0.03);
 }
 
